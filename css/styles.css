@@ -1,0 +1,183 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#cta {
+	text-align: center;
+	color: white;
+	background-color: #ff4c68;
+}
+
+#cta h3 {
+	font-size: 3.5rem;
+	font-weight: 700;
+	line-height: 1.5;
+	margin: 3% auto 0;
+	width: 75%;
+}
+
+#features {
+	background-color: #fff;
+	text-align: center;
+}
+
+#features .container-fluid {
+	padding: 7% 15%;
+}
+
+#features h3 {
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+#features i {
+	color: #ef8172;
+	font-size: 4.5rem;
+	margin-bottom: 15px;
+}
+
+#features i:hover {
+	color: #ff4c68;
+}
+
+#features p {
+	color: #8f8f8f;
+	margin: 0 auto;
+	width: 75%;
+}
+
+#footer {
+	background-color: #fff;
+	padding: 5% 15%;
+	text-align: center;
+}
+
+#footer p {
+	color: #8f8f8f;
+	margin: 1%;
+}
+
+#footer i {
+	font-size: 1.25rem;
+	margin: 1%;
+}
+
+#press {
+	background-color: #ef8172;
+	color: #fff;
+	padding: 0 0 3%;
+	text-align: center;
+}
+
+#press img {
+	margin: 20px 20px 50px;
+	width: 15%;
+}
+
+#pricing {
+	padding: 100px;
+	text-align: center;
+}
+
+#pricing h2 {
+	font-weight: 700;
+}
+
+#pricing h3 {
+	font-weight: 700;
+}
+
+#pricing .pricing-column {
+	padding: 3% 2%;
+}
+
+#testimonials {
+	background-color: #ef8172;
+	color: #fff;
+
+	text-align: center;
+}
+
+#testimonials a {
+	font-size: 3rem;
+	font-weight: 700;
+	line-height: 1.5;
+}
+
+#testimonials h2 {
+	font-size: 3rem;
+	font-weight: 700;
+	line-height: 1.5;
+}
+
+#testimonials img {
+	border-radius: 100%;
+	margin: 20px;
+	width: 10%;
+}
+
+#testimonials .carousel-item {
+	padding: 7% 15%;
+}
+
+#title {
+	overflow: hidden;
+	height: 775px;
+	color: white;
+	background-color: #ff4c68;
+}
+
+#title h1 {
+	font-size: 3.5rem;
+	font-weight: 700;
+	line-height: 1.5;
+}
+
+#title .navbar {
+	margin: 0 0 4.5rem;
+}
+
+#title .navbar-brand {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2.5rem;
+	font-weight: 700;
+}
+
+#title .nav-item {
+	padding: 0 18px;
+}
+
+#title .nav-link {
+	font-family: 'Montserrat-Light', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 400;
+}
+
+#title .title-image {
+	margin: auto auto;
+	transform: rotate(25deg);
+	width: 60%;
+}
+
+.container-fluid {
+	padding: 3% 15%;
+}
+
+.download {
+	margin: 5% 3% 5% 0;
+}
+
+@media (max-width: 1028px) {
+	#title {
+		text-align: center;
+		overflow: hidden;
+		height: 1200px;
+		color: white;
+		background-color: #ff4c68;
+	}
+
+	.title-image {
+		transform: rotate(0deg);
+		width: 60%;
+	}
+}
